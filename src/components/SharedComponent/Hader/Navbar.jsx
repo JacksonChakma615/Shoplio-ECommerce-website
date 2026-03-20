@@ -12,11 +12,11 @@ const Navbar = () => {
           <p>All Category</p>
         </div>
         <div className="flex items-center gap-12">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/shop">Shop Now</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/blog">Blog</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink className={({isActive} )=>isActive?`cp`:``} to="/">Home</NavLink>
+          <NavLink className={({isActive} )=>isActive?`cp`:``} to="/shop">Shop Now</NavLink>
+          <NavLink className={({isActive} )=>isActive?`cp`:``} to="/about">About</NavLink>
+          <NavLink className={({isActive} )=>isActive?`cp`:``} to="/blog">Blog</NavLink>
+          <NavLink className={({isActive} )=>isActive?`cp`:``} to="/contact">Contact</NavLink>
         </div>
         <div className="flex items-center gap-2 bgp text-white py-2 px-6 rounded-md">
           <LuShoppingCart />
