@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@plugin "daisyui";
+@import "tailwindcss";
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+/* primary color */
+.cp {
+  color: #5caf90;
+}
+
+/* cplor text */
+.ts{
+    color: #4B5966;
+}
+/* bg color */
+.bgp {
+  background-color: #5caf90;
+}
+
+
+.ts{
+  color: #4B5966;
+   font-size: 14px;
+}
+
+/* p tag */
+/* p {
+  color: gray;
+  font-size: 14px;
+} */
