@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
       <div
         style={{ backgroundImage: `url(${bg})` }}
-        className="container h-[70vh] w-7xl bg-cover my-8  px-24 mx-auto">
+        className="container h-[70vh]  bg-cover my-8  px-24 mx-auto">
         <div className=" flex  flex-col h-full justify-center items-start gap-2 ">
           <p className="cp text-2xl font-semibold">70% Off For This Winter</p>
           <h1 className="text-5xl font-semibold text-[#4b5966]">Bigest Sale For Winter <br/>Man & Woman</h1>
