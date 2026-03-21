@@ -2,7 +2,7 @@
 [
   {
     "id": 1,
-    "name": "Potato Chips 52g, American Cream.",
+    "name": "Potato Chips 52g, American",
     "categoryId": 1,
     "categoryName": "Eggs",
     "price": 664.0,
@@ -99,7 +99,7 @@
   },
   {
     "id": 5,
-    "name": "Trendy Sunglasses for Men & Women",
+    "name": "Trendy Sunglasses for Men ",
     "categoryId": 5,
     "categoryName": "Glasses",
     "price": 499.0,

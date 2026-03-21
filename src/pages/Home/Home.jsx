@@ -5,6 +5,7 @@ import PopularProducts from './HomeComponent/PopularProducts/PopularProducts';
 import LatestExclusive from './HomeComponent/LatestExclusive';
 import NewProducts from './HomeComponent/NewProducts';
 import Callection from './HomeComponent/Callection';
+import Support from './HomeComponent/Support';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <LatestExclusive></LatestExclusive>
             <NewProducts></NewProducts>
             <Callection></Callection>
+            <Support></Support>
         </div>
     );
 };
