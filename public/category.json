@@ -41,5 +41,21 @@
     "items": 59,
     "discount": 0,
     "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/54_1.jpg"
+  },
+    {
+    "id": 7,
+    "name": "Glasses",
+    "items": 48,
+    "discount": 10,
+    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-4.png"
+  },
+
+    {
+    "id": 3,
+    "name": "Watches",
+    "items": 65,
+    "discount": 0,
+    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/54_1.jpg"
   }
+
 ]

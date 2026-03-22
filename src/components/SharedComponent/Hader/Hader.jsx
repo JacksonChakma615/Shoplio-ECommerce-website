@@ -9,6 +9,7 @@ const Hader = () => {
             <TopHader></TopHader>
             <MidHader></MidHader>
             <Navbar></Navbar>
+            
         </div>
     );
 };

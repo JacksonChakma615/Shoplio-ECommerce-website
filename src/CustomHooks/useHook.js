@@ -5,7 +5,7 @@ const useHook = () => {
   const [categorys, setCategorys] = useState([]);
 
   useEffect(() => {
-    fetch("category.json")
+    fetch("/category.json")
       .then((res) => res.json())
       .then((data) => setCategorys(data));
   }, []);
@@ -14,7 +14,7 @@ const useHook = () => {
   // products section fetch
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("products.json")
+    fetch("/products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

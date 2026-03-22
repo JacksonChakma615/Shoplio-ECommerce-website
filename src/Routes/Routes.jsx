@@ -4,8 +4,9 @@ import Root from "../layouts/Root";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import ShopNow from "../pages/ShopNow/ShopNow";
-import Blog from "../pages/Blog/Blog";
+
 import Contact from "../pages/Contact/Contact";
+import SingleProductPage from "../components/SharedComponent/SingleProductPage";
 
 export const router = createBrowserRouter([
   {
@@ -24,13 +25,14 @@ export const router = createBrowserRouter([
         path: "/about",
         element: <About></About>,
       },
-      {
-        path: "/blog",
-        element: <Blog></Blog>,
-      },
+   
       {
         path: "/contact",
         element:<Contact></Contact>,
+      },
+      {
+        path: "/shop/:id",
+        element:<SingleProductPage></SingleProductPage>
       },
     ],
   },

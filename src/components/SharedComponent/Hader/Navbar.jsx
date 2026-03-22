@@ -15,7 +15,7 @@ const Navbar = () => {
           <NavLink className={({isActive} )=>isActive?`cp`:``} to="/">Home</NavLink>
           <NavLink className={({isActive} )=>isActive?`cp`:``} to="/shop">Shop Now</NavLink>
           <NavLink className={({isActive} )=>isActive?`cp`:``} to="/about">About</NavLink>
-          <NavLink className={({isActive} )=>isActive?`cp`:``} to="/blog">Blog</NavLink>
+         
           <NavLink className={({isActive} )=>isActive?`cp`:``} to="/contact">Contact</NavLink>
         </div>
         <div className="flex items-center gap-2 bgp text-white py-2 px-6 rounded-md">
