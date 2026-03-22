@@ -19,8 +19,8 @@ const ContactElement = () => {
                                 <FaPhone />
                             </div>
                             <p className='text-xl font-semibold text-gray-700'>Contact With Phone</p>
-                            <h3>Phone: 01753924093</h3>
-                            <h3>Phone: 01753924093</h3>
+                            <h3>Phone: 01608601230</h3>
+                            <h3>Phone: 01608601230</h3>
                         </div>
                     </div>
                     <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
@@ -30,8 +30,8 @@ const ContactElement = () => {
                                 <MdOutlineMail />
                             </div>
                             <p className='text-xl font-semibold text-gray-700'>Contact With Phone</p>
-                            <h3>Phone: 01753924093</h3>
-                            <h3>Phone: 01753924093</h3>
+                            <h3>Phone: 01608601230</h3>
+                            <h3>Phone: 01608601230</h3>
                         </div>
                     </div>
                     <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
